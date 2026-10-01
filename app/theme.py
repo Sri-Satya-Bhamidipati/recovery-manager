@@ -87,7 +87,7 @@ table.rm-table {{ width:100%; border-collapse:collapse; background:{SURFACE}; bo
 
 /* ---------- evidence trace ---------- */
 .rm-head {{ display:flex; align-items:flex-end; justify-content:space-between; flex-wrap:wrap; gap:1rem; margin-bottom:1.6rem; padding-bottom:1rem; border-bottom:1px solid {CHARCOAL}; }}
-.rm-head .id {{ font-family:'Newsreader',Georgia,serif; font-size:2rem; line-height:1.1; }}
+.rm-head .id {{ font-family:'IBM Plex Sans',sans-serif; font-size:1.8rem; font-weight:600; line-height:1.15; }}
 .rm-head .sub {{ color:{MUTED}; font-size:.86rem; margin-top:.25rem; }}
 .rm-head .badges {{ display:flex; gap:.5rem; align-items:center; flex-wrap:wrap; }}
 
@@ -102,7 +102,7 @@ table.rm-table {{ width:100%; border-collapse:collapse; background:{SURFACE}; bo
 .rm-fact .k {{ font-size:.66rem; letter-spacing:.1em; text-transform:uppercase; color:{MUTED}; }}
 .rm-fact .v {{ font-size:.92rem; margin-top:.1rem; word-break:break-word; font-variant-numeric:tabular-nums; }}
 .rm-fact .v.mono {{ font-family:'IBM Plex Mono',monospace; font-size:.82rem; }}
-.rm-fact .v.big {{ font-family:'Newsreader',Georgia,serif; font-size:1.35rem; }}
+.rm-fact .v.big {{ font-family:'IBM Plex Sans',sans-serif; font-size:1.25rem; font-weight:600; }}
 .rm-aside {{ font-size:.78rem; color:{MUTED}; margin-top:.55rem; line-height:1.5; }}
 
 .rm-sources {{ display:grid; grid-template-columns:repeat(auto-fit,minmax(310px,1fr)); gap:.9rem; }}
